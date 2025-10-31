@@ -7,7 +7,7 @@ import seaborn as sns
 import joblib
 
 print("Memuat data latih dari CSV...")
-df = pd.read_csv('Hasil/data_training_1.csv')
+df = pd.read_csv('Hasil/data_training.csv')
 X = df.drop('label', axis=1).values # Ambil semua kolom KECUALI 'label'
 Xcol = df.drop('label', axis=1)
 y = df['label']              # Ambil hanya kolom 'label'
@@ -94,7 +94,7 @@ plt.ylabel('Fitur')
 plt.show()
 
 # Menyimpan model
-model_filename = 'model_random_forest_1.joblib'
+model_filename = 'model_random_forest.joblib'
 print(f"Menyimpan model yang sudah dilatih ke {model_filename}...")
 joblib.dump(model, model_filename)
 print("Model berhasil disimpan.")

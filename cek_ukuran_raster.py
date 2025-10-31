@@ -16,5 +16,5 @@ def cek_ukuran_raster(input_raster):
         print(f"Bentuk (shape) dari {input_raster} adalah {band1.shape}")
 
         
-path = r"C:\mYdata\SKRRP\Belajar\mesin_belajar\Klasifikasi Padi Gulma\Persiapan\Olah Citra\Cikembar_30_clip.tif"
+path = r""
 cek_ukuran_raster(path)

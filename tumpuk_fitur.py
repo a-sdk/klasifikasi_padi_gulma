@@ -1,9 +1,9 @@
 import rasterio
 import numpy as np
 
-folder_path = r'C:\mYdata\SKRRP\Belajar\mesin_belajar\Klasifikasi_Padi_Gulma\Persiapan\Olah_Citra'
-homogeneity_path = r'tekstur\outputea68c6e0401a4532b724a2cb2e5b11b8_IDM.tif'
-contrast_path = r'tekstur\outputea68c6e0401a4532b724a2cb2e5b11b8_Contr.tif'
+folder_path = r''
+homogeneity_path = r''
+contrast_path = r''
 print("Menumpuk seluruh fitur...")
 
 # Daftar file yang ingin digabungkan

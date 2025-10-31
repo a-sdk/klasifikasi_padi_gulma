@@ -62,8 +62,8 @@ def prediksi_citra_penuh(model_path, stack_path, output_path, nodata_value=np.na
 
 # --- JALANKAN FUNGSI ---
 if __name__ == "__main__":
-    MODEL_PATH = 'model_random_forest_1.joblib' # Sesuaikan
-    STACK_PATH = 'Hasil/feature_stack_training_1.tif' # Ganti ke path stack 
-    OUTPUT_PATH = 'Hasil/KLASIFIKASI_PADI_GULMA_1.tif'
+    MODEL_PATH = 'model_random_forest_0.joblib' # Sesuaikan
+    STACK_PATH = 'Hasil/feature_stack_training.tif' # Ganti ke path stack 
+    OUTPUT_PATH = 'Hasil/KLASIFIKASI_PADI_GULMA.tif'
     
     prediksi_citra_penuh(MODEL_PATH, STACK_PATH, OUTPUT_PATH)
